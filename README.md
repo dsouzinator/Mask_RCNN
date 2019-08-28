@@ -1,7 +1,11 @@
-# Mask R-CNN for Object Detection and Segmentation
+# Mask R-CNN for Melanoma Detection and Segmentation
 
-This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
+This implementation of Mask_RCNN has been trained on Melanoma Images obtained from [ISIC](https://www.isic-archive.com)
 
 This repository has been forked from [matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)
 
+The code for training and loading the images and it's respective masks are stored in the [melanoma](melanoma/) folder
 
+The images on the left are melanoma images, the images on the right are their respective masks
+
+![Melannoma 1](images/ISIC_0016062.jpg)			![Melanoma 1 Mask](images/outISIC_0016062.jpg)

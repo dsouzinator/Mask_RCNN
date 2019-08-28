@@ -1,3 +1,6 @@
+""" Created by Noel D'Souza
+github.com/dsouzinator """
+
 import os
 import sys
 import datetime
@@ -119,7 +122,9 @@ model.train(dataset_train,dataset_val,
                 learning_rate=config.LEARNING_RATE,
                 epochs=2,
                 layers='heads')
+
 print("Training entire network")
+
 model.train(dataset_train,dataset_val,
                 learning_rate=config.LEARNING_RATE,
                 epochs=30,
